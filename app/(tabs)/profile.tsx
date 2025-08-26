@@ -105,6 +105,7 @@ export default function ProfileScreen() {
               >
                 <Crown size={16} color="#F59E0B" strokeWidth={2} />
                 <Text style={styles.upgradeButtonText}>Upgrade to Pro</Text>
+              </TouchableOpacity>
             )}
             {isBusinessAccount && isSubscriptionActive() && (
               <View style={styles.activePlanBadge}>
